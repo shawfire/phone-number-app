@@ -5,39 +5,40 @@
 ## Get source code
 
 ```bash
-$git@github.com:shawfire/phone-number-app.git
-$cd phone-number-app/node-js-api
+$ git@github.com:shawfire/phone-number-app.git
+$ cd phone-number-app/node-js-api
 ```
 
 ## Build source
 
 ```bash
-$nvm --version
+$ nvm --version
 0.33.2
-$cat .nvmrc
+$ cat .nvmrc
 8.11.4
-$nvm list
-$nvm install 8.11.4
-$nvm use
-$node -v
+$ nvm list
+$ nvm install 8.11.4
+$ nvm use
+$ node -v
 v8.11.4
-$npm -v
+$ npm -v
 5.6.0
-$npm install
-$yarn
+$ npm install
+$ yarn
 ```
 
 ## Run Unit tests (jest) / integration tests (supertest)
 
 ```bash
-$yarn test
-$npm run test
+$ yarn test
+$ npm run test
+$ npm run test -- --watch
 ```
 
 ## Run test coverage
 
 ```bash
-$yarn coverage
+$ yarn coverage
 ```
 
 - [test coverage report adjust path to the base of your repository] (file:///GitRepo/node-js-api/coverage/lcov-report/index.html)
@@ -45,8 +46,8 @@ $yarn coverage
 ## Run API (use nodemon for hot reloading)
 
 ```bash
-$yarn start
-$npm run start
+$ yarn start
+$ npm run start
 ```
 
 ## API Spec - testing with curl/postman
