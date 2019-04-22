@@ -5,7 +5,8 @@
 ## Get source code
 
 ```bash
-$git clone blah
+$git@github.com:shawfire/phone-number-app.git
+$cd phone-number-app/node-js-api
 ```
 
 ## Build source
@@ -20,6 +21,8 @@ $nvm install 8.11.4
 $nvm use
 $node -v
 v8.11.4
+$npm -v
+5.6.0
 $npm install
 $yarn
 ```
