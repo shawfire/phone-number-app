@@ -1,0 +1,29 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "## Tech stack:",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest",
+    "coverage": "jest --collectCoverageFrom=!src/index.js --collectCoverageFrom=src/**/**.js --coverage src",
+    "start": "nodemon --watch src --ignore tests node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.4.1",
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http-status-codes": "^1.3.2"
+  }
+}
