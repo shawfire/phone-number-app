@@ -5,7 +5,7 @@
 ## Get source code
 
 ```bash
-$ git@github.com:shawfire/phone-number-app.git
+$ git clone git@github.com:shawfire/phone-number-app.git
 $ cd phone-number-app/node-js-api
 ```
 
@@ -61,8 +61,14 @@ $ curl localhost:3000/phone-numbers
 {
     "phoneNumbers": [
         { "phoneNumber": "0434567890", "customer": "Telstra", "activated": false },
+        { "phoneNumber": "0434567891", "customer": "Telstra", "activated": false },
+        { "phoneNumber": "0434567893", "customer": "Telstra", "activated": false },
         { "phoneNumber": "0444567890", "customer": "Optus", "activated": false },
-        ...
+        { "phoneNumber": "0444567891", "customer": "Optus", "activated": false },
+        { "phoneNumber": "0444567893", "customer": "Optus", "activated": false },
+        { "phoneNumber": "0454567890", "customer": "Virgin", "activated": false },
+        { "phoneNumber": "0454567891", "customer": "Virgin", "activated": false },
+        { "phoneNumber": "0454567893", "customer": "Virgin", "activated": false }
     ]
 }
 ```
@@ -75,7 +81,7 @@ $ curl localhost:3000/phone-numbers?customer=Telstra
     "phoneNumbers": [
         { "phoneNumber": "0434567890", "customer": "Telstra", "activated": false },
         { "phoneNumber": "0434567891", "customer": "Telstra", "activated": false },
-        ...
+        { "phoneNumber": "0434567893", "customer": "Telstra", "activated": false }
     ]
 }
 ```
