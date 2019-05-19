@@ -107,9 +107,9 @@ $ curl localhost:3000/phone-numbers/0434567890
 
 ## TODO
 
-- add sort=sort=fieldsName=asc|desc
+- add sort=-fieldName default asc, '-' desc
 - add filter=fieldName=<filter>
-- add pagination offset=<page*pageSize>
+- add pagination offset=<(page-1)*pageSize>
 - add limit=<pageSize>
 - add search=<ilike on certain fields or>
-- consider debounce in frontend
+- Use debounce for search and filter in frontend
