@@ -104,3 +104,12 @@ $ curl localhost:3000/phone-numbers/0434567890
 
 { "phoneNumber": "0434567890", "customer": "Telstra", "activated": true }
 ```
+
+## TODO
+
+- add sort=sort=fieldsName=asc|desc
+- add filter=fieldName=<filter>
+- add pagination offset=<page*pageSize>
+- add limit=<pageSize>
+- add search=<ilike on certain fields or>
+- consider debounce in frontend
